@@ -1,0 +1,16 @@
+How JAVA Works:
+    -> With JVM (Works on hardware and OS).
+    -> JVM is not independent, application is independent
+    -> JVM executes a byte code.
+    -> We write high level language (JAVA code).
+    -> javac compiles code into byte code.
+    -> First file needs to have main method.
+    -> looks for "public static void main(String a[])" signature.
+
+Data Types
+    -> primitive -> Integer(byte, short, int, long)
+                 -> float(4 bytes), double(8 bytes) (double is default in java)
+                 -> character (UNICODE characters, not ASCII)
+                 -> boolean (Only true and false, not 0 and 1)
+    * after every long variable value put l, and float variable value put f.
+    -> Non primitive -> Array
